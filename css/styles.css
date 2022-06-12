@@ -12,7 +12,6 @@
 body {
 	background-color:#FFFFFF;
 	color:var(--primary-text-color);
-
 	font-family: Roboto, sans-serif;
 }
 /* цвет текста основной #212121 */
@@ -31,6 +30,7 @@ body {
 	  font-family: Raleway, sans-serif;
 	  font-size: 26px;
 	  line-height: 1.19;
+	  letter-spacing: 0.03em;
  }
 
   .list {
@@ -48,6 +48,7 @@ body {
 	  font-weight: 500;
 	  font-size: 14px;
 	  line-height: 1.14;
+	  letter-spacing: 0.02em;
 	
  }
 
@@ -63,6 +64,7 @@ body {
  .auth-nav .link {
  	color: var(--additional-tex-color);
 	font-size: 14px;
+	letter-spacing: 0.02em;
 
  }
 
@@ -84,6 +86,7 @@ body {
 	 line-height: 1.36;
 	 text-align: center;
 	 text-transform: uppercase;
+	 letter-spacing: 0.06em;
  }
 
  /* section */
@@ -93,6 +96,7 @@ body {
 	 font-size: 36px;
 	 line-height: 1.16;
 	 text-align: center;
+	 letter-spacing: 0.03em;
  }
 
  /* features */
@@ -102,12 +106,14 @@ body {
 	 font-size: 14px;
 	 line-height: 1.14;
 	 text-transform: uppercase;
+	 letter-spacing: 0.03em;
  }
  .features-text {
     color: var(--additional-tex-color) ;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	letter-spacing: 0.03em;
  }
 
  /* services */
@@ -121,12 +127,14 @@ body {
 	 font-weight: 500;
 	 font-size: 16px;
 	 line-height: 1.18;
+	 letter-spacing: 0.03em;
  }
  .team-position {
 	 color: var(--additional-tex-color);
 	 font-weight: 400;
 	 font-size: 16px;
 	 line-height: 1.18;
+	 letter-spacing: 0.03em;
  }
 
  /* footer */
@@ -142,6 +150,7 @@ body {
 	 font-weight: 400;
 	 font-size: 14px;
 	 line-height: 1.71;
+	 letter-spacing: 0.03em;
  }
 
  .footer-link {
@@ -151,12 +160,11 @@ body {
 	 font-weight: 400;
 	 font-size: 14px;
 	 line-height: 1.71;
+	 letter-spacing: 0.03em;
  }
 
  /* button */
  .button {
-	color: var(--primary-text-color);
-	background-color: var(--button-bg-color);
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -171,9 +179,16 @@ body {
  }
  .button.secondary {
 	color: var(--primary-text-color);
-	background-color: var(--button-bg-color);
+	background-color: var(--button-bg-color));
+	border: transparent;
  }
 
+ .button.secondary:hover,
+ .button.secondary:focus {
+	color: var(--white-color);
+	background-color: var(--accent-color);
+	border: transparent;
+}
  /* portfolio */
 
  .portfolio h2 {
@@ -181,6 +196,7 @@ body {
 	 font-weight: 700;
 	 font-size: 18px;
 	 line-height: 2;
+	 letter-spacing: 0.06em;
 	}
  
 	 .portfolio p {
@@ -188,4 +204,5 @@ body {
 	 font-weight: 400;
 	 font-size: 16px;
 	 line-height: 1.87;
+	 letter-spacing: 0.03em;
 	}
